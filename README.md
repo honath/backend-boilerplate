@@ -8,16 +8,16 @@ Currently configured to run off of a PostgreSQL database, with only development 
 Run `npm install` to install dependencies
 
 ## Scripts
-`knex` runs knex
-`migrate` run knex DB migrations
-`reset` rolls back knex seeds and migrations, then reseeds and migrates
-`rollback` rolls back migrations
-`seed` runs knex seeds
-`start` starts server (node)
-`start:dev` starts auto refreshing server (nodemon)
+`knex` runs knex  
+`migrate` run knex DB migrations  
+`reset` rolls back knex seeds and migrations, then reseeds and migrates  
+`rollback` rolls back migrations  
+`seed` runs knex seeds  
+`start` starts server (node)  
+`start:dev` starts auto refreshing server (nodemon)  
 
 ## Dependencies
-Node
-Express
-Knex
-Nodemon
+Node  
+Express  
+Knex  
+Nodemon  
