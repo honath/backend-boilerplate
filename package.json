@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1"
+  },
+  "name": "backend-boilerplate",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "knex": "knex",
+    "migrate": "knex migrate:latest",
+    "reset": "npm run rollback && npm run migrate && npm run seed",
+    "rollback": "knex migrate:rollback",
+    "seed": "knex seed:run",
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Honath/Alex Cooper",
+  "license": "ISC",
+  "description": ""
+}
